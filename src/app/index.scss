@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+}
+
+.vertScrollWrap {
+  position: relative;
+  overflow: scroll;
+  height: calc(100vh - 100px);
+}
+
+.contentWrap {
+  overflow: auto;
+}
+
+.middleArea {
+  height: 100px;
+  background-color: antiquewhite;
+  color: gray;
+  font-size: 20px;
+}
+
+.homeHeader {
+  height: 100px;
+  background-color: lightblue;
+  color: gray;
+  font-size: 20px;
+}
